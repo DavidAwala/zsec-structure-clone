@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# zSecurity Cybersecurity Platform
 
-## Project info
+A modern, interactive, and responsive **cybersecurity website** built with cutting-edge web technologies, offering training resources, security products, and engaging animations to enhance user experience.
 
-**URL**: https://lovable.dev/projects/a575e93f-d394-4455-91cc-af69f63d4e25
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+### 🎯 Core Sections
+- **Hero Section**  
+  Eye-catching animated entry with scroll indicators for intuitive navigation.
+  
+- **Training Programs**  
+  - **Online Courses** — Learn ethical hacking & cybersecurity with up-to-date content.  
+  - **One-On-One Training** — Personalized learning paths tailored to your skill level.  
+  - **Community Articles & Tutorials** — Extensive library of security knowledge.
 
-**Use Lovable**
+- **Products**  
+  - **Bug Bounty** — Crowd-sourced vulnerability discovery to keep software secure.  
+  - **ZSVPN** — Advanced VPN service for privacy, censorship resistance, and security.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a575e93f-d394-4455-91cc-af69f63d4e25) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎨 Visual Enhancements
+- Smooth **Framer Motion** animations on scroll (zoom, fade, slide effects).
+- **Scroll Indicator** — Click to jump between top and bottom of the page.
+- Interactive hover states and glowing effects for UI elements.
+- Responsive design optimized for desktop, tablet, and mobile.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
+- **React + Next.js** — For fast, server-side rendered UI.
+- **Tailwind CSS** — Utility-first styling for rapid, responsive layouts.
+- **Framer Motion** — Smooth animations and transitions.
+- **Lucide React Icons** — Clean and consistent SVG icons.
+- **ShadCN/UI Components** — Accessible and customizable UI building blocks.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Project Structure
+src/
+components/
+Header/
+Hero/
+Training/
+Products/
+ScrollIndicator/
+pages/
+index.tsx
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ⚡ Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/zsecurity-platform.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Navigate into the project folder
+cd zsecurity-platform
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a575e93f-d394-4455-91cc-af69f63d4e25) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

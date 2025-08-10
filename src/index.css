@@ -62,7 +62,39 @@ All colors MUST be HSL.
     /* Animations */
     --transition-cyber: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
+  
 }
+
+@keyframes gradientFadePulse {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.15; /* Stay black for a moment */
+  }
+  40% {
+    opacity: 0.3; /* Fade in */
+  }
+  60% {
+    opacity: 0.45; /* Start pulsing */
+  }
+  70% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.75; /* Pulse back */
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-gradient-fade-pulse {
+  animation: gradientFadePulse 2s ease-in forwards;
+  animation-delay: 0s;
+  animation-direction: alternate;
+}
+
 
 @layer base {
   * {
